@@ -1,0 +1,61 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Ambiente virtual — nunca commitar
+venv/
+.venv/
+env/
+.env/
+
+# ── Base de dados local ───────────────────────────────────────────────────────
+# O ficheiro .db é gerado automaticamente — não precisa de estar no repositório
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Ficheiros de sistema ──────────────────────────────────────────────────────
+# Windows
+Thumbs.db
+desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ── Editores e IDEs ───────────────────────────────────────────────────────────
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+
+# Jupyter Notebooks (checkpoints)
+.ipynb_checkpoints/
+
+# ── Variáveis de ambiente e segredos ─────────────────────────────────────────
+# NUNCA commitar passwords, chaves de API ou dados sensíveis
+.env
+.env.local
+secrets.py
+config_local.py
+
+# ── Logs e ficheiros temporários ─────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+*.swp

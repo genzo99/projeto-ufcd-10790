@@ -1,4 +1,3 @@
-#
 from funcoes import *
 
 def menu():
